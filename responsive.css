@@ -1,0 +1,159 @@
+@media screen and (max-width:1325px){
+    main .left p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:1160px){
+    section h3{
+        margin-left: 243px;
+    }
+
+    section aside h4{
+        width: 83%;
+        font-size: 18px;
+        margin-left: 250px;
+    }
+
+    section aside p{
+        width: 76%;
+        margin-left: 260px;
+    }
+}
+
+@media screen and (max-width:1005px){
+    main .left h1{
+        font-size: 43px;
+        margin-top: 325px;
+    }
+
+    main .left h2{
+        font-size: 20px;
+    }
+
+    main .left button{
+        margin-top: 615px;
+    }
+
+    main .left p{
+        margin-top: 454px;
+    }
+}
+
+@media screen and (max-width:750px){
+     
+    main {
+        margin-top: 376px;
+        margin-left: 263px;
+    }
+
+    main .left{
+        position: absolute;
+    }
+
+    main img{
+        width: 759px;
+        height: 578px;
+        margin-left: 2px;
+        margin-top: 919px;
+    }
+
+    main .left h2{
+        width: 100%;
+        font-size: 22px;
+        margin-top: 315px;
+    }
+
+    main .left h1{
+        width: 100%;
+        font-size: 43px;
+        margin-top: 418px;
+    }
+
+    main .left p{
+        margin-top: 549px;
+    }
+
+    main .left button{
+        margin-top: 824px;
+    }
+
+    section h3{
+        width: 100%;
+        margin-top: 984px;
+        margin-left: 384px;
+    }
+
+    section aside {
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+        margin-top: 31px;
+    }
+
+    section .foto{
+        margin-left: 373px;
+    }
+
+    section .foto1{
+        margin-top: 573px;
+    }
+}
+
+@media screen and (max-width:480px){
+    main{
+        margin-top: 376px;
+        margin-left: 55px;
+    }
+
+    main .left p{
+        width: 100%;
+    }
+
+    main img{
+        margin-left: 0px;
+    }
+
+    section h3{
+        margin-left: 254px;
+
+    }
+
+    section aside h4{
+        width: 83%;
+        font-size: 18px;
+        margin-left:208px ;
+    }
+
+    section .foto1{
+        margin-left: 0px;
+    }
+
+    section .foto{
+        margin-left: 133px;
+    }
+}
+
+@media screen and (max-width:400px){
+    main .left h1{
+        font-size: 28px;
+        
+    }
+
+    main .left p{
+        font-size: 12px;
+    }
+
+    main .left h2{
+        font-size: 20px;
+    }
+
+    section aside h4{
+        font-size: 24px;
+    }
+
+    section .foto1{
+        margin-top: 573px;
+    }
+}
+

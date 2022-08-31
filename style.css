@@ -6,6 +6,7 @@
     --secondary-font:'Caudex', serif;
     --active-color: #e8b57b;
     --background-color: #2b3a27;
+    --color-background1: #f3efeb;
 }
 
 body{
@@ -17,70 +18,292 @@ body{
 header{
     width: 100%;
     height: 94px;
-    position: fixed;
+    position:relative;
 
 }
 
-header section{
-    width: 86%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header nav{
+    width: 90%;
+    height: 94px;
     margin-left: 94px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
 }
 
-header section .left i{
-    height: 24px;
-    font-size: 18px;
+header nav .navbar-brand {
+    font-size: 20px;
+    color: var(--active-color) ;
+}
+
+header nav .navbar-brand:hover{
     color: var(--active-color);
-    margin-right: 10px;
 }
 
-header section .left a{
+header nav .name{
     height: 26px;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 500;
     font-family: var(--secondary-font);
     color: var(--active-color);
     text-decoration: none;
 }
 
-header section .right ul{
+header nav .collapse{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    gap: 37px;
-    list-style: none;
+    margin-right: 109px;
 }
 
-header section .right ul a{
+.navbar-expand-lg .navbar-nav{
     height: 35px;
     font-size: 16px;
     font-weight: 400;
+    gap: 20px;
+    font-family: var(--primary-font);
+    color: white !important;
+}
+
+.navbar-expand-lg .navbar-nav .login i{
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.navbar-expand-lg .navbar-nav .login:hover{
+    color: rgb(134, 130, 130);
+}
+
+.navbar-expand-lg .navbar-nav:hover{
+    color: var(--active-color);
+    transition: 0.6s;
+}
+
+.active{
+    color: var(--active-color) !important;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+}
+
+main .left{
+    width: 100% ;
+    height: 100%;
+}
+
+main .left h2{
+    height: 0px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: var(--primary-font);
+    color: white ;
+    position: absolute;
+    z-index: 10;
+    margin-top: 256px;
+    margin-left: 144px;
+}
+
+main .left h1{
+    height: 71px;
+    font-size: 84px;
+    font-weight: 500;
+    font-family: var(--secondary-font);
+    color: white;
+    position: absolute;
+    z-index: 10;
+    margin-top: 297px;
+    margin-left: 132px;
+}
+
+main .left p{
+    width: 32%;
+    height: 81px;
+    font-size:16px; 
+    font-weight: 400;
+    font-family: var(--primary-font);
+    color: white;
+    position: absolute;
+    z-index: 10;
+    margin-top: 427px;
+    margin-left: 142px;
+}
+
+main .left button{
+    width: 144px;
+    height: 44px;
+    background-color: transparent;
+    border: 1px solid white;
+    position: absolute;
+    z-index: 10;
+    margin-top: 520px;
+    margin-left: 142px;
+}
+
+main .left button a{
+    width: 100%;
+    height: 46px;
+    font-size: 16px;
     font-family: var(--primary-font);
     color: white;
     text-decoration: none;
 }
 
-header section .right ul a:hover{
-    color: var(--active-color);
-    transition: 0.4s;
+main .left button:hover{
+ border-color:  rgb(77, 74, 74);
+ 
 }
 
-.active{
-    color: var(--active-color);
+main .left button a:hover{
+    color:rgb(77, 74, 74) ;
 }
 
-header section .right ul a i{
-    height: 22px;
-    margin-right: 10px;
-    font-size: 22px;
+main  img{
+    widows: 66%;
+    height: 879px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-left: 449px;
 }
 
-header section .right ul a i:hover{
-    color: white !important;
+section h3{
+    height: 65px;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: var(--secondary-font);
+    color: white;
+    margin-top: 127px;
+    margin-left: 68px;
 }
 
-header section .right ul li .login:hover{
-    color: #778185;
+section aside{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
 }
+
+section aside h4{
+    height: 54px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: var(--secondary-font);
+    color: white;
+    margin-top: 80px;
+    margin-left: 47px;
+    display: flex;
+    justify-content: center;
+}
+
+section aside h4 .border{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 8px solid var(--active-color) !important;
+    margin-top: 5px;
+    margin-right: 6px;
+}
+
+section aside p{
+    height: 127px;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    color: white;
+    margin-left: 68px;
+}
+
+.fotos{
+    margin-left: 50px ;
+}
+
+section .foto{
+    width: 580px;
+    height: 350px;
+    background-image: url("https://static.wixstatic.com/media/c837a6_63d1eaae2c874d8eb088055ca83f93cd~mv2.jpg/v1/crop/x_0,y_353,w_4828,h_2913/fill/w_580,h_350,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/GettyImages-534963038_EDIT.jpgs");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    margin-top: 178px;
+    margin-left: 600px;
+}
+
+section .foto1{
+    width: 740px;
+    height: 446px;
+    background-image: url("https://static.wixstatic.com/media/c837a6_5b70838c3b3e47bb9fa8a523ca078044~mv2.jpg/v1/crop/x_0,y_211,w_6500,h_3918/fill/w_740,h_446,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/AdobeStock_399706470_EDIT.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    margin-top: 386px;
+    margin-left: 30px;
+}
+
+.info{
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-background1);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    margin-top: 886px;
+}
+
+.info .left1{
+    height: 650px;
+    display: grid;
+    grid-template-columns: 1fr !important;
+    place-items: center;
+    margin-bottom: 279px;
+}
+
+.info .left1 h1{
+    height: 125px;
+    font-size: 50px;
+    font-weight: 500 ;
+    font-family: var(--secondary-font);
+    color: #343434;
+    margin-left: 201px;
+}
+
+.info .left1 h1 p{
+    height: 208px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--primary-font);
+    color: #343434;
+    margin-top: 50px;
+    margin-left: -7px;
+    word-spacing: 7px;
+}
+
+.info .right1{
+    width: 575px;
+    height: 600px;
+    background-image: url("https://static.wixstatic.com/media/c837a6_1ef0d52aa211477882fecd96caef4b24~mv2.jpg/v1/fill/w_575,h_600,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_1ef0d52aa211477882fecd96caef4b24~mv2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.screen{
+    width: 100%;
+    height: 600px;
+    background-image: url("https://static.wixstatic.com/media/c837a6_dfbddce99f6649e08d395966f5959018~mv2.jpeg/v1/fill/w_1349,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_dfbddce99f6649e08d395966f5959018~mv2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
