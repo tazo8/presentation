@@ -29,8 +29,12 @@
 
 @media screen and (max-width:1160px){
 
+    header{
+        width: 165%;
+    }
+
     main img{
-       width: 119%;
+       width: 124%;
     }
 
     section h3{
@@ -49,7 +53,7 @@
     }
 
     .info{
-        width: 158%;
+        width: 165%;
     }
 
     .info .left1 h1 p{
@@ -62,7 +66,77 @@
     }
 
     .screen{
-        width: 158%;
+        width: 165%;
+    }
+
+    .speak .left2 p, .speak .right2 p{
+        margin-left: 0px;
+    }
+
+    .speak .left2 img, .speak .right2 img{
+        margin-right: 239px;
+    }
+
+    .speak .left2 h4, .speak .right2 h4{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .tornado .tor img{
+        width: 109%;
+    }
+
+    .tornado .totxt{
+        height: 768px;
+        margin-top: 103px;
+        margin-bottom: 49px;
+        margin-right: 47px;
+    }
+}
+
+@media screen and (max-width:1024px){
+
+    .speak{
+        width: 165%;
+    }
+
+    .tornado{
+        width:165% ;
+    }
+
+    .contact{
+        width: 140%;
+    }
+     .footer{
+        width: 165%;
+     }
+
+    .srvp{
+        margin-right: -500px;
+    }
+
+    .speak .left2 p, .speak .right2 p{
+        margin-left: 0px;
+    }
+
+    .speak .left2 img, .speak .right2 img{
+        margin-right: 239px;
+    }
+
+    .speak .left2 h4, .speak .right2 h4{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .tornado .tor img{
+        width: 109%;
+    }
+
+    .tornado .totxt{
+        height: 768px;
+        margin-top: 103px;
+        margin-bottom: 49px;
+        margin-right: 47px;
     }
 }
 
@@ -83,29 +157,65 @@
     main .left p{
         margin-top: 454px;
     }
-}
 
-@media screen and (max-width:864px){
     main img{
-        width: 128% ;
+        width: 130%;
+    }
+
+    .info{
+        width: 178%;
+    }
+
+    .screen{
+        width: 178%;
+    }
+
+    .speak{
+        width: 178%;
+    }
+
+    .tornado{
+        width: 178%;
+    }
+
+    .footer{
+        width: 178%;
     }
 }
 
-@media screen and (max-width:864px){
-    .info{
-        width: 180%;
+@media screen and (max-width:879px){
+    header nav .name{
+        width: 91%;
     }
 
+    main img{
+        width: 151%;
+    }
+ 
+    .info, .screen, .speak, .tornado, .footer{
+        width: 206%;
+    }
+
+    .contact{
+        width: 188%;
+    }
+}
+ 
+
+
+@media screen and (max-width:864px){
+    
     .info .left1 h1 p{
         font-size: 21px;
     }
 
-    .screen{
-        width: 180%;
-    }
 }
 
 @media screen and (max-width:750px){
+
+    header{
+        width: 203%;
+    }
      
     main {
         margin-top: 376px;
@@ -117,8 +227,8 @@
     }
 
     main img{
-        width: 1178px;
-        height: 782px;
+        width: 206%;
+        height: 928px;
         margin-left: -262px;
         margin-top: 919px;
     }
@@ -147,9 +257,18 @@
 
     section h3{
         width: 100%;
-        margin-top: 1211px;
-        margin-left: 384px;
+        margin-top: 1536px;
+        margin-left: 590px;
     }
+
+    section aside h4{
+        width: 126%;
+    }
+
+    section aside p {
+        margin-left: 586px;
+    }
+
 
     section aside {
         display: grid;
@@ -167,7 +286,7 @@
     }
 
     .info{
-        width: 158%;
+        width: 206%;
         margin-top: 1182px;
     }
 
@@ -191,13 +310,43 @@
     }
 
     .info .right1{
-        width: 300%;
+        width: 205%;
         margin-bottom: 774px;
         margin-left: -793px;
     }
 
     .screen{
-        width: 158%;
+        width: 206%;
+    }
+
+    .speak .meet, .speak div, .tornado, .footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+
+    .speak div .left2{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .speak div .right2{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .tornado .totxt{
+        width: 103%;
+    }
+
+    .contact{
+        margin-left: 137px;
+    }
+
+    .footer .links{
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 66px;
     }
 }
 
@@ -211,7 +360,7 @@
     }
 
     main img{
-        width: 1711px;
+        width: 231%;
         height: 941px;
         margin-top: 1003px;
         /* margin-left: 604px; */
@@ -219,7 +368,7 @@
 
     section h3{
         margin-top: 1661px;
-        margin-left: 553px;
+        margin-left: 686px;
         font-size: 65px;
     }
 
@@ -230,7 +379,7 @@
 
     section aside p{
         font-size: 18px;
-        margin-left: 520px;
+        margin-left: 635px;
     }
 
     section .foto{
@@ -251,6 +400,10 @@
     .screen{
         width: 231%;
     }
+
+    .info, .screen, .speak, .tornado, .footer{
+        width: 232%;
+    }
 }
 
 @media screen and (max-width:740px){
@@ -261,7 +414,7 @@
     }
 
     section h3{
-        margin-top: 1806px;
+        margin-top: 1936px;
     }
 
     section .foto{
@@ -276,9 +429,18 @@
     .screen{
         width: 272%;
     }
+
+    .info, .screen, .speak, .tornado, .footer{
+        width: 271%;
+    }
 }
 
 @media screen and (max-width:650px){
+
+    header{
+        width: 250%;
+    }
+
     section .foto {
         width: 677px;
         margin-left: 600px;
@@ -300,6 +462,10 @@
 }
 
 @media screen and (max-width:581px){
+
+    header{
+        width: 351%;
+    }
 
     main .left h2{
         font-size: 27px;
@@ -323,13 +489,13 @@
     }
 
     main img {
-        width: 2160px;
-        height: 1145px;
+        width: 400%;
+        height: 1431px;
     }
 
     section h3{
-        margin-top: 1801px;
-        font-size: 73px;
+        margin-top: 2146px;
+        font-size: 70px;
     }
 
     section aside h4{
@@ -345,7 +511,7 @@
     section .foto{
         width: 888px;
         height: 494px;
-        margin-left: 821px;
+        margin-left: 755px;
     }
 
     
@@ -367,12 +533,24 @@
     }
 
     .info .right1{
-        width: 206%;
-        margin-right: 284px;
+        width: 192%;
+        margin-right: 440px;
     }
 
     .screen{
         width: 399%;
+    }
+
+    .info, .screen, .speak, .tornado, .footer{
+         width: 400%;
+    }
+    .tornado .totxt{
+        width: 102%;
+    }
+    
+    .contact{
+        margin-left: 427px;
+        font-size: 20px;
     }
 }
 
@@ -387,18 +565,20 @@
     }
 
     main img{
-        margin-left: 0px;
+        width: 443%;
     }
 
     section h3{
-        margin-left: 254px;
-
+        font-size: 50px;
     }
 
     section aside h4{
-        width: 83%;
-        font-size: 18px;
-        margin-left:208px ;
+        width: 106%;
+        font-size: 20px;
+    }
+
+    section aside p{
+        margin-left: 633px;
     }
 
     section .foto1{
@@ -406,15 +586,31 @@
     }
 
     section .foto{
-        margin-left: 133px;
+        margin-left: 463px;
     }
 
+
     .info{
-        width: 399%;
+        width: 401%;
     }
 
     .screen{
-        width: 399%;
+        width: 401%;
+    }
+
+    .contact label{
+        margin-top: 52px;
+    }
+    .contact .email button{
+        margin-left: 66px;
+    }
+
+    .contact .email input{
+        margin-top: 17px;
+    }
+
+    .contact h1{
+        margin-top: 56px;
     }
 
 }
@@ -442,3 +638,153 @@
     }
 }
 
+
+@media screen and (max-width:360px){
+     main img{
+        width: 453%;
+     }
+
+     section h3{
+        margin-left: 500px;
+     }
+     section aside h4{
+        width: 58%;
+     }
+
+     section aside p{
+        margin-left: 523px;
+     }
+}
+
+
+            /* responsive srvp*/
+
+
+    @media screen and (max-width:1024px){
+        .secret{
+            margin-left: 400px;
+        }
+
+        .secret span{
+            width: 75%;
+        }
+
+        .secret .txt{
+            margin-left: 118px;
+        }
+
+        .schedule{
+            width: 117%;
+            margin-left: 231px;
+            margin-top: 187px;
+        }
+    }   
+
+
+    @media screen and (max-width:865px){
+        .secret span{
+            width: 88%;
+        }
+
+        .secret .times{
+            margin-top: 50px;
+            font-size: 20px;
+        }
+
+        .secret h1{
+            margin-top: 76px;
+        }
+
+        .secret .txt {
+            margin-left: 54px;
+            font-size: 20px;
+        }
+
+    }
+
+    @media screen and (max-width:571px){
+        .secret{
+            margin-left: 649px;
+        }
+
+        .secret p{
+            font-size: 21px;
+        }
+
+        .secret span{
+            width: 101%;
+        }
+
+        .secret img{
+            width: 252%;
+            margin-left: 194px;
+        }
+
+        .secret h1{
+            margin-top: 278px;
+            width: 41%;
+        }
+
+        .secret .times{
+            margin-top: 97px;
+            font-size: 32px;
+             width: 49%;
+        }
+
+        .secret .txt{
+            margin-left: 54px;
+            font-size: 28px;
+            width: 82%;
+            margin-top: 91px;
+        }
+
+        .schedule{
+            width: 247%;
+            margin-left: 277px;
+            margin-top: 385px;
+        }
+
+        .schedule button{
+            width: 200px;
+            height: 83px;
+            font-size: 27px;
+        }
+
+        .schedule h4{
+            font-size: 43px;
+        }
+
+        .schedule ul li a{
+            font-size: 50px;
+        }
+    }
+
+    @media screen and (max-width:550px){
+        .secret img{
+            width: 232%;
+            margin-right: 364px;
+        }
+    }
+
+    @media screen and (max-width:473px){
+        .secret img{
+            width: 168%;
+            margin-right: 364px;
+        }
+    }
+    
+
+    @media screen and (max-width:408px){
+        .secret img{
+            width: 164%;
+            margin-right: 602px;
+        }
+    }
+
+    @media screen and (max-width:380px){
+        .secret img{
+            width: 121%;
+            margin-right: 636px;
+        }
+    }
+    
