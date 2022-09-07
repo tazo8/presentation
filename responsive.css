@@ -1,3 +1,26 @@
+@media screen and (max-width:1350px){
+        
+    main  img{
+        width: 110%;
+    }
+
+    .info{
+        width: 144%;
+    }
+
+    .info .left1 h1 p{
+        font-size: 18px;
+    }
+
+    .screen{
+        width: 144%;
+    }
+
+    section .foto{
+        width: 909px;
+    }
+}
+
 @media screen and (max-width:1325px){
     main .left p{
         font-size: 14px;
@@ -5,6 +28,11 @@
 }
 
 @media screen and (max-width:1160px){
+
+    main img{
+       width: 119%;
+    }
+
     section h3{
         margin-left: 243px;
     }
@@ -18,6 +46,23 @@
     section aside p{
         width: 76%;
         margin-left: 260px;
+    }
+
+    .info{
+        width: 158%;
+    }
+
+    .info .left1 h1 p{
+        font-size: 20px;
+    }
+
+    .info .right1 {
+        width: 637px;
+        height: 674px;
+    }
+
+    .screen{
+        width: 158%;
     }
 }
 
@@ -40,6 +85,26 @@
     }
 }
 
+@media screen and (max-width:864px){
+    main img{
+        width: 128% ;
+    }
+}
+
+@media screen and (max-width:864px){
+    .info{
+        width: 180%;
+    }
+
+    .info .left1 h1 p{
+        font-size: 21px;
+    }
+
+    .screen{
+        width: 180%;
+    }
+}
+
 @media screen and (max-width:750px){
      
     main {
@@ -52,9 +117,9 @@
     }
 
     main img{
-        width: 759px;
-        height: 578px;
-        margin-left: 2px;
+        width: 1178px;
+        height: 782px;
+        margin-left: -262px;
         margin-top: 919px;
     }
 
@@ -71,6 +136,8 @@
     }
 
     main .left p{
+        font-size: 17px;
+        width: 77%;
         margin-top: 549px;
     }
 
@@ -80,7 +147,7 @@
 
     section h3{
         width: 100%;
-        margin-top: 984px;
+        margin-top: 1211px;
         margin-left: 384px;
     }
 
@@ -88,7 +155,7 @@
         display: grid;
         grid-template-columns: 1fr;
         place-items: center;
-        margin-top: 31px;
+        /* margin-top: 31px; */
     }
 
     section .foto{
@@ -97,6 +164,215 @@
 
     section .foto1{
         margin-top: 573px;
+    }
+
+    .info{
+        width: 158%;
+        margin-top: 1182px;
+    }
+
+    .info .left1{
+        height: 91%;
+        margin-bottom :108px;
+        margin-left: 201px ; 
+        margin-top: 0px !important;
+        
+    }
+
+    .info .left1 h1{
+        width: 174%;
+        margin-top: 408px;
+        margin-left: 267px;
+        font-size: 95px;
+    }
+
+    .info .left1 h1 p{
+        font-size: 26px;
+    }
+
+    .info .right1{
+        width: 300%;
+        margin-bottom: 774px;
+        margin-left: -793px;
+    }
+
+    .screen{
+        width: 158%;
+    }
+}
+
+@media screen and (max-width:745px){
+    main .left h2{
+        font-size: 24px;
+    }
+
+    main .left h1{
+        font-size: 46px;
+    }
+
+    main img{
+        width: 1711px;
+        height: 941px;
+        margin-top: 1003px;
+        /* margin-left: 604px; */
+    }
+
+    section h3{
+        margin-top: 1661px;
+        margin-left: 553px;
+        font-size: 65px;
+    }
+
+    section aside h4{
+        font-size: 23px;
+        margin-left: 448px;
+    }
+
+    section aside p{
+        font-size: 18px;
+        margin-left: 520px;
+    }
+
+    section .foto{
+        width: 649px;
+        margin-left: 630px;
+    }
+
+
+    .info{
+        width: 231%;
+    }
+
+    .info .right1{
+        margin-right: 222px;
+        width: 200%;
+    }
+
+    .screen{
+        width: 231%;
+    }
+}
+
+@media screen and (max-width:740px){
+
+    main img{
+        width: 270%;
+        height: 1257px;
+    }
+
+    section h3{
+        margin-top: 1806px;
+    }
+
+    section .foto{
+        width: 128%;
+        height: 541px;
+    }
+
+    .info{
+        width: 272%;
+    }
+
+    .screen{
+        width: 272%;
+    }
+}
+
+@media screen and (max-width:650px){
+    section .foto {
+        width: 677px;
+        margin-left: 600px;
+    }
+
+    section .foto1{
+        width: 813px;
+        height: 494px;
+    }
+
+    .info{
+        width: 270%;
+    }
+
+    .screen{
+        width: 270%;
+    }
+
+}
+
+@media screen and (max-width:581px){
+
+    main .left h2{
+        font-size: 27px;
+        margin-left: 332px;
+    }  
+
+    main .left h1{
+        font-size: 48px;
+        margin-left: 332px;
+    }
+
+    main .left p{
+        font-size: 20px;
+        margin-left: 332px;
+    }
+
+    main .left button{
+        width: 200px;
+        height: 66px;
+        margin-left: 372px;
+    }
+
+    main img {
+        width: 2160px;
+        height: 1145px;
+    }
+
+    section h3{
+        margin-top: 1801px;
+        font-size: 73px;
+    }
+
+    section aside h4{
+        font-size: 35px;
+         margin-left: 503px ;
+    }
+
+    section aside p{
+        font-size: 24px;
+        margin-left: 541px;
+    }
+
+    section .foto{
+        width: 888px;
+        height: 494px;
+        margin-left: 821px;
+    }
+
+    
+    .info{
+        width: 399%;
+    }
+
+    .info .right1{
+        width: 194%;
+    }
+
+    .info .left1 h1{
+        font-size: 100px;
+        margin-left: 453px;
+    }
+
+    .info .left1 h1 p{
+        font-size: 32px;
+    }
+
+    .info .right1{
+        width: 206%;
+        margin-right: 284px;
+    }
+
+    .screen{
+        width: 399%;
     }
 }
 
@@ -132,6 +408,15 @@
     section .foto{
         margin-left: 133px;
     }
+
+    .info{
+        width: 399%;
+    }
+
+    .screen{
+        width: 399%;
+    }
+
 }
 
 @media screen and (max-width:400px){

@@ -29,15 +29,16 @@ header nav{
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
+    color: white !important;
 }
 
 header nav .navbar-brand {
     font-size: 20px;
-    color: var(--active-color) ;
+    color: var(--active-color) !important ;
 }
 
 header nav .navbar-brand:hover{
-    color: var(--active-color);
+    color: var(--active-color) !important;
 }
 
 header nav .name{
@@ -168,13 +169,13 @@ main .left button a:hover{
 }
 
 main  img{
-    widows: 66%;
+    width: 69%;
     height: 879px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin-left: 449px;
+    margin-left: 417px;
 }
 
 section h3{
@@ -307,3 +308,404 @@ section .foto1{
     position: absolute;
 }
 
+.speak{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    margin-top: 600px;
+}
+
+.speak div{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+
+.speak .meet{
+    height: 97px;
+    font-size: 42px ;
+    color: #343434;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-left: 120px;
+    font-family: var(--secondary-font);
+}
+
+.speak div .left2 {
+    width: 545px;
+    height: 706px;
+    background-color: var(--color-background1);
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    margin-left: 120px;
+}
+
+.speak div .right2{
+    width: 545px;
+    height: 706px;
+    background-color: var(--color-background1);
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+}
+
+.speak .left2 p,
+.speak .right2 p{
+    width: 474px;
+    height: 4px;
+    font-size: 32px ;
+    font-family: var(--secondary-font);
+    color: var(--background-color);
+}
+
+.speak .left2 img,
+.speak .right2 img{
+    margin-right: 179px;
+}
+
+.speak .left2 h4,
+.speak .right2 h4{
+    width: 355px;
+    height: 54px;
+    font-size: 20px;
+    font-family: var(--secondary-font);
+    color: #343434;
+    margin-top: 0px ;
+    margin-right: 109px;
+    margin-bottom: 0px;
+}
+
+.speak .left2 span,
+.speak .right2 span{
+    width: 417px;
+    height: 157px;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    color: #343434;
+}
+
+.tornado{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+
+.tornado .tor img{
+    margin-top: 50px;
+}
+
+.tornado .totxt{
+    width: 100%;
+    height: 700px;
+    background-color: var(--color-background1);
+    margin-top: 49px;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+}
+
+.tornado .totxt span{
+    width: 415px;
+    height: 263px;
+    font-size: 48px;
+    font-family: var(--secondary-font);
+    color: var(--background-color);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-left: 93px;
+}
+
+.tornado .totxt p{
+    height: 26px;
+    font-size: 20px;
+    font-family: var(--secondary-font);
+    color: var(--background-color);
+    font-weight: 500;
+}
+
+.contact{
+    width: 100%;
+    height: 500px;
+    margin-top: 175px;
+}
+
+.contact p{
+    height: 33px;
+    font-size: 24px;
+    font-family: var(--primary-font);
+    color: #ffffff;
+    margin-left: 108px;
+}
+
+.contact h1{
+    height: 65px;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: var(--secondary-font);
+    color: #ffffff;
+    margin-left: 108px;
+}
+
+.contact .email {
+    margin-left: 108px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact  label{
+    height: 16px;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-left: 108px;
+}
+
+.contact .email input{
+    width: 380px;
+    height: 36px;
+    border: 0px;
+    border-bottom: 1px solid #ffffff;
+    background-color: var(--background-color);
+}
+
+.contact .email input:hover{
+    background-color: #445140;
+}
+
+.contact .email button{
+    width: 140px;
+    height: 60px;
+    border: 1px solid #ffffff;
+    background-color: var(--background-color);
+    font-style: 16x;
+    font-family: var(--primary-font);
+    color: #ffffff;
+    margin-left: -168px;
+}
+
+.contact .email button:hover{
+   color: var(--active-color);
+    transition: 0.6s;
+    border-color: #e8b57b;
+}
+
+.footer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--active-color);
+}
+
+.footer aside{
+    margin-left: 111px;
+    margin-top: 117px;
+}
+
+.footer h1{
+    height: 65px;
+    font-size: 50px;
+    font-family: var(--secondary-font);
+    color: var(--background-color);
+}
+
+.footer p{
+    height: 22px;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    color: var(--background-color);
+    margin-top: 61px;
+}
+
+
+.footer .links{
+    margin-right: 109px;
+    margin-top: 238px;
+}
+
+.footer .links a{
+    height: 22px;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    color: var(--background-color);
+    text-decoration: none;
+    margin-right: 21px;
+}
+
+.srvp{
+    width: 112px;
+    height: 112px;
+    border: 1px solid var(--background-color);
+    border-radius: 50%;
+    background-color: var(--active-color);
+    font-size: 20px;
+    font-family: var(--secondary-font);
+    color: var(--background-color);
+    position: fixed;
+    right: 1%;
+    bottom: 160px;
+}
+
+.srvp:hover{
+    color:#2e4927d7;
+    border-color: var(--background-color);
+    transition: 0.5s;
+}
+
+.secret{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    row-gap: 25px;
+}
+
+.secret p{
+    height: 23px;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    color: #ffffff;
+    margin-right: 417px;
+    margin-top: 63px;
+}
+
+.secret span{
+    width: 59%;
+    height: 120px;
+    font-size: 50px;
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.secret button{
+    width: 160px;
+    height: 49px;
+    border: 1px solid var(--active-color);
+    background-color: transparent;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    color: var(--active-color);
+    margin-top: 49px;
+    margin-right: 635px;
+}
+
+.secret button:hover{
+    color: #9c784f;
+    border-color:#9c784f;
+    transition: 0.4s;
+}
+
+.secret img{
+    margin-top: 40px;
+}
+
+.secret h1{
+    height: 39px;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: var(--secondary-font);
+    color: #ffffff;
+    margin-top: 27px;
+    margin-right: 643px;
+}
+
+.secret .times{
+    width: 21%;
+    height: 24px;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    color: #ffffff;
+    margin-right: 590px;
+    margin-top: 0px;
+}
+
+.secret .txt{
+    width: 56%;
+    height: 72px;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    color: #ffffff;
+    margin-top: 0px;
+    margin-left: 292px;
+}
+
+.schedule h1{
+    height: 39px;
+    font-size: 30px;
+    font-family: var(--secondary-font);
+    color: #ffffff;
+    margin-top: 50px;
+    margin-left: 229px ;
+}
+
+.schedule aside{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+}
+
+.schedule p{
+    height: 25px;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    color: #ffffff;
+    margin-left: 229px;
+    margin-top: 50px;
+}
+
+.schedule .line{
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    width: 837px;
+    margin-left: 220px;
+}
+
+.schedule button{
+    width: 160px;
+    height: 49px;
+    border: 1px solid var(--active-color);
+    background-color: transparent;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    color: var(--active-color);
+    margin-top: 207px;
+    margin-left: 220px;
+}
+
+.schedule button:hover{
+    color: #9c784f;
+    border-color:#9c784f;
+    transition: 0.4s;
+}
+
+.schedule h4{
+    height: 39px;
+    font-size: 30px;
+    font-family: var(--secondary-font);
+    color: #ffffff;
+    margin-left: 215px;
+    margin-top: 40px;
+}
+
+.schedule ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    margin-left: 185px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.schedule ul li a{
+    font-size: 16px;
+    color: #ffffff;
+}
