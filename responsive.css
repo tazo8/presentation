@@ -193,7 +193,7 @@
     }
  
     .info, .screen, .speak, .tornado, .footer{
-        width: 206%;
+        width: 208%;
     }
 
     .contact{
@@ -565,7 +565,7 @@
     }
 
     main img{
-        width: 443%;
+        width: 448%;
     }
 
     section h3{
@@ -641,11 +641,12 @@
 
 @media screen and (max-width:360px){
      main img{
-        width: 453%;
+        width: 470%;
      }
 
      section h3{
         margin-left: 500px;
+        font-size: 40px;
      }
      section aside h4{
         width: 58%;
@@ -654,6 +655,10 @@
      section aside p{
         margin-left: 523px;
      }
+
+     section .foto{
+        margin-left: 237px;
+    }
 }
 
 
@@ -788,3 +793,17 @@
         }
     }
     
+    @media screen and (max-width:378px){
+        .secret{
+            margin-left: 480px;
+        }
+
+        .secret p,
+        .secret span{
+            margin-right: 347px;
+        }
+
+        .schedule{
+            margin-left: 72px;
+        }
+    }
